@@ -19,14 +19,19 @@ render(){
              })
             }}title = {"first button"}/>
             </div>
-            git config --global user.email "estery6@walla.co.il" git config --global user.name "esteryitzhak"
-            <ButtonComponen
+
+            <ButtonComponent
                 onClick = {()=>{
                     this.setState({
                         index:this.state.index
                     })
                 }}
                 title = {"second button"}/>
+
+
+
+
+
 
             <ButtonComponent
                 onClick = {()=>{
